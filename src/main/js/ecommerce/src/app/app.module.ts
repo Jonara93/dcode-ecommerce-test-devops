@@ -9,6 +9,8 @@ import {ProductsComponent} from './ecommerce/products/products.component';
 import {ShoppingCartComponent} from './ecommerce/shopping-cart/shopping-cart.component';
 import {OrdersComponent} from './ecommerce/orders/orders.component';
 import {EcommerceService} from "./ecommerce/services/EcommerceService";
+import { UserFormComponent } from './ecommerce/user-form/user-form.component';
+import { UserListComponent } from './ecommerce/user-list/user-list.component';
 
 @NgModule({
     declarations: [
@@ -16,7 +18,9 @@ import {EcommerceService} from "./ecommerce/services/EcommerceService";
         EcommerceComponent,
         ProductsComponent,
         ShoppingCartComponent,
-        OrdersComponent
+        OrdersComponent,
+        UserFormComponent,
+        UserListComponent
     ],
     imports: [
         BrowserModule,
