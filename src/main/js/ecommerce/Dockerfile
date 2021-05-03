@@ -12,6 +12,10 @@ RUN npm install
 
 COPY . /app
 
+RUN npm install --save rxjs-compat 
+
+RUN npm install copyfiles -g
+
 RUN npm run build --prod
 
 # Stage 2
