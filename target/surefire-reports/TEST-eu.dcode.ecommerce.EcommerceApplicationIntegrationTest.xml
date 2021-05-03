@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" time="0.534" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" time="0.611" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.8+10-LTS"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\test-dcode\dcode-ecommerce-test-devops"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\dcode-ecommerce-test-devops"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\test-dcode\dcode-ecommerce-test-devops"/>
+    <property name="user.dir" value="D:\dcode-ecommerce-test-devops"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.8+10-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -64,8 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenGetProductsApiCall_whenProductListRetrieved_thenSizeMatchAndListContainsProductNames" time="0.374"/>
-  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenGetOrdersApiCall_whenProductListRetrieved_thenSizeMatchAndListContainsProductNames" time="0.023"/>
-  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenPostOrder_whenBodyRequestMatcherJson_thenResponseContainsEqualObjectProperties" time="0.135"/>
+  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenGetProductsApiCall_whenProductListRetrieved_thenSizeMatchAndListContainsProductNames" time="0.407"/>
+  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenGetOrdersApiCall_whenProductListRetrieved_thenSizeMatchAndListContainsProductNames" time="0.027"/>
+  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenPostOrder_whenBodyRequestMatcherJson_thenResponseContainsEqualObjectProperties" time="0.175"/>
   <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="contextLoads" time="0.002"/>
 </testsuite>
