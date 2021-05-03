@@ -22,7 +22,8 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://162.55.45.19:4200")
 @RequestMapping("/api/orders")
 public class OrderController {
 

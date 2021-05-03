@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" time="0.611" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" time="0.545" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,8 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenGetProductsApiCall_whenProductListRetrieved_thenSizeMatchAndListContainsProductNames" time="0.407"/>
-  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenGetOrdersApiCall_whenProductListRetrieved_thenSizeMatchAndListContainsProductNames" time="0.027"/>
-  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenPostOrder_whenBodyRequestMatcherJson_thenResponseContainsEqualObjectProperties" time="0.175"/>
-  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="contextLoads" time="0.002"/>
+  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenGetProductsApiCall_whenProductListRetrieved_thenSizeMatchAndListContainsProductNames" time="0.376"/>
+  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenGetOrdersApiCall_whenProductListRetrieved_thenSizeMatchAndListContainsProductNames" time="0.022"/>
+  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="givenPostOrder_whenBodyRequestMatcherJson_thenResponseContainsEqualObjectProperties" time="0.146"/>
+  <testcase classname="eu.dcode.ecommerce.EcommerceApplicationIntegrationTest" name="contextLoads" time="0.001"/>
 </testsuite>
